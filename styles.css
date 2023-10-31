@@ -77,19 +77,19 @@ p{
     align-items: center;
 }
 .desktop-sphere{
-    margin-top: -67px;
+    margin-top: -61px;
 }
 .mobile-sphere{
     display: none;
 }
 .desktop-triangle{
-    margin-top: -65px;
+    margin-top: -56.5px;
 }
 .mobile-triangle{
     display: none;
 }
 .desktop-tor{
-    margin-top: -68px;
+    margin-top: -54px;
 }
 .mobile-tor{
     display: none;
@@ -131,16 +131,16 @@ p{
         height:100px;
     }
     .Main{
-        height:1350px;
+        height:1370px;
     }
     .Cards{
-        height: 1050px;
+        height: 1070px;
         margin-top: 60px;
         flex-direction: column;
         align-content: space-between;
     }
     .Card{
-        height:300px;
+        height:310px;
         width:80%;
     }
     .Footer{
@@ -172,7 +172,7 @@ p{
     }
     .mobile-triangle{
         display: block;
-        margin-top: -61px;
+        margin-top: -59px;
     }
     .desktop-tor{
         display: none;
