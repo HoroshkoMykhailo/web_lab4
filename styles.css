@@ -18,7 +18,13 @@ html, body {
 .Header>a{
     margin-right:17%;
     display: block;
-    width: 2%;
+    width: 30px;
+}
+#left{
+    margin-left: 17%;
+}
+#right{
+    margin-right: 17%;
 }
 .css-menu-bar {
     display: block;
@@ -39,10 +45,12 @@ html, body {
 h1{
     color:#D443DD;
     font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 p{
     font-family:Arial, Helvetica, sans-serif;
     margin-top: 0.5%;
+    text-align: center;
 }
 .Main>h1{
     margin-top: 3%;
@@ -68,6 +76,24 @@ p{
     flex-direction: column;
     align-items: center;
 }
+.desktop-sphere{
+    margin-top: -67px;
+}
+.mobile-sphere{
+    display: none;
+}
+.desktop-triangle{
+    margin-top: -65px;
+}
+.mobile-triangle{
+    display: none;
+}
+.desktop-tor{
+    margin-top: -68px;
+}
+.mobile-tor{
+    display: none;
+}
 .Card>h1{
     font-size: 1.2em;
 }
@@ -76,7 +102,6 @@ p{
     margin-left: 5%;
     margin-right: 5%;
     font-size: 0.8em;
-    text-align: center;
 }
 .button{
     background-image: linear-gradient(0deg, rgba(195,78,219,1) 10%, rgba(54,174,205,1) 100%);;
@@ -100,4 +125,60 @@ p{
     justify-content: center;
     font-family:Arial, Helvetica, sans-serif;
     color: white;
+}
+@media only screen and (max-width: 600px){
+    .Header{
+        height:100px;
+    }
+    .Main{
+        height:1350px;
+    }
+    .Cards{
+        height: 1050px;
+        margin-top: 60px;
+        flex-direction: column;
+        align-content: space-between;
+    }
+    .Card{
+        height:300px;
+        width:80%;
+    }
+    .Footer{
+        height: 100px;
+    }
+    p{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    h1{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #left{
+        margin-left: 0;
+    }
+    #right{
+        margin-right: 0;
+    }
+    .desktop-sphere{
+        display: none;
+    }
+    .mobile-sphere{
+        display: block;
+        margin-top: -57px;
+    }
+    .desktop-triangle{
+        display: none;
+    }
+    .mobile-triangle{
+        display: block;
+        margin-top: -61px;
+    }
+    .desktop-tor{
+        display: none;
+    }
+    .mobile-tor{
+        display: block;
+        margin-top: -62px;
+    }
 }
